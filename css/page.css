@@ -1,0 +1,40 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  /* --primary-color: hsl(0, 0%, 14%); */
+  --primary-color: hsl(0, 0%, 14%);
+  /* --primary-bg: hsl(0, 0%, 96%); */
+  --primary-bg: white;
+  --secondary-color: white;
+  /* --secondary-bg: hsl(0, 0%, 48%); */
+  --secondary-bg: white;
+  --border-color: #dbdbdb;
+  --border-hover: #363636;
+  --background: hsl(0, 0%, 86%);
+  --page-font-size: 1.6rem;
+  --topbar-font-size: 1.6rem;
+  --form-font-size: 1.6rem;
+  --notification-font-size: 1.6rem;
+  --shadow-level-1: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
+    0 0px 0 1px rgba(10, 10, 10, 0.02);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  /* background-color: var(--background); */
+}
+
+/* phone */
+@media screen and (max-width: 768px) {
+}
+/* tablet */
+/* @media screen and (min-width: 769px) {
+  page-component {
+    max-width: 960px;
+  }
+} */
