@@ -245,30 +245,38 @@ export class ContactForm extends LitElement {
         time=${this.notificationTime}
         >${this.notificationMessage}
       </notification-component>
-      
-      <form method="post" @submit=${
-        this.validateAndSubmit
-      } autocomplete="off" action=${formspreeAction} >
-        
-        <label for "name"> ${t("name")} </label>
-        <input id="name" name="name" type="text"  />
+
+      <form
+        method="post"
+        @submit=${this.validateAndSubmit}
+        autocomplete="off"
+        action=${formspreeAction}
+      >
+        <label for="name"> ${t("name")} </label>
+        <input id="name" name="name" type="text" />
         <span class="error">${t(this.nameErrorKey)}</span>
-  
-        <label for "email"> ${t("email")} </label>
-        <input id="email" name="email" type="text"  />
+
+        <label for="email"> ${t("email")} </label>
+        <input id="email" name="email" type="text" />
         <span class="error">${t(this.emailErrorKey)}</span>
-  
-        <label for "message"> ${t("message")}</label>
-        <textarea id="message" name="message" rows="5" ></textarea>
+
+        <label for="message"> ${t("message")}</label>
+        <textarea id="message" name="message" rows="5"></textarea>
         <span class="error">${t(this.messageErrorKey)}</span>
-  
+
         <input name="protection" type="text" style="display: none" />
-        
+
         <button type="submit">
           ${t("submit")}
-        <svg xmlns="https://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
-          <path d="M476.59 227.05l-.16-.07L49.35 49.84A23.56 23.56 0 0027.14 52 24.65 24.65 0 0016 72.59v113.29a24 24 0 0019.52 23.57l232.93 43.07a4 4 0 010 7.86L35.53 303.45A24 24 0 0016 327v113.31A23.57 23.57 0 0026.59 460a23.94 23.94 0 0013.22 4 24.55 24.55 0 009.52-1.93L476.4 285.94l.19-.09a32 32 0 000-58.8z"/> 
-        </svg>
+          <svg
+            xmlns="https://www.w3.org/2000/svg"
+            class="ionicon"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M476.59 227.05l-.16-.07L49.35 49.84A23.56 23.56 0 0027.14 52 24.65 24.65 0 0016 72.59v113.29a24 24 0 0019.52 23.57l232.93 43.07a4 4 0 010 7.86L35.53 303.45A24 24 0 0016 327v113.31A23.57 23.57 0 0026.59 460a23.94 23.94 0 0013.22 4 24.55 24.55 0 009.52-1.93L476.4 285.94l.19-.09a32 32 0 000-58.8z"
+            />
+          </svg>
         </button>
       </form>
     `;
