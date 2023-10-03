@@ -28,7 +28,7 @@ export class GithubLink extends LitElement {
     return html`
       <a href=${this.url} target="_blank" title="GitHub">
         <svg
-          xmlns="http://www.w3.org/2000/svg"
+          xmlns="https://www.w3.org/2000/svg"
           class="ionicon"
           viewBox="0 0 512 512"
         >

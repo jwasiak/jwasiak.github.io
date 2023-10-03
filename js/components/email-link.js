@@ -34,7 +34,7 @@ export class EmailLink extends LitElement {
     return html`
       <a href="mailto: ${this.mail}">
         <svg
-          xmlns="http://www.w3.org/2000/svg"
+          xmlns="https://www.w3.org/2000/svg"
           class="ionicon"
           viewBox="0 0 512 512"
         >
