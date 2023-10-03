@@ -53,7 +53,7 @@ export class CvEng extends LitElement {
   }
 
   render() {
-    return this.lang !== "eng"
+    return this.lang !== "en"
       ? null
       : html`
           <div>
@@ -243,4 +243,4 @@ export class CvEng extends LitElement {
   }
 }
 
-customElements.define("cv-eng", CvEng);
+customElements.define("cv-en", CvEng);

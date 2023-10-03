@@ -11,7 +11,7 @@ const menu = {
       text: "Jarosław Wasiak - programista aplikacji internetowych",
     },
   ],
-  eng: [
+  en: [
     {
       href: "#",
       text: "Jarosław Wasiak - full stack developer",
@@ -40,7 +40,7 @@ export class CvComponent extends LitElement {
 
   constructor() {
     super();
-    this.lang = "eng";
+    this.lang = "en";
     this.addEventListener("change-language", (ev) => {
       this.lang = ev.detail.lang;
     });
@@ -54,7 +54,7 @@ export class CvComponent extends LitElement {
         home="index.html"
       ></fixed-topbar>
       <cv-pl lang=${this.lang}></cv-pl>
-      <cv-eng lang=${this.lang}></cv-eng>
+      <cv-en lang=${this.lang}></cv-en>
       <contact-details lang=${this.lang}></contact-details>
     `;
   }

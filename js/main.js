@@ -1,13 +1,13 @@
 import "./components/fixed-topbar.js";
 import "./components/start-pl.js";
-import "./components/start-eng.js";
+import "./components/start-en.js";
 import "./components/page-component.js";
 import "./components/cv-component.js";
 import "./components/notification-component.js";
 import "./components/delete-button.js";
 import "./components/contact-form.js";
 import "./components/cv-pl.js";
-import "./components/cv-eng.js";
+import "./components/cv-en.js";
 import "./components/contact-details.js";
 import "./components/linkedin-link.js";
 import "./components/github-link.js";

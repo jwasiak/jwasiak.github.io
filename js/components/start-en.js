@@ -23,7 +23,7 @@ export class StartEng extends LitElement {
   `;
 
   render() {
-    return this.lang !== "eng"
+    return this.lang !== "en"
       ? null
       : html`
           <div>
@@ -119,4 +119,4 @@ export class StartEng extends LitElement {
   }
 }
 
-customElements.define("start-eng", StartEng);
+customElements.define("start-en", StartEng);

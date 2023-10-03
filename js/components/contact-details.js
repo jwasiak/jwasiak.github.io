@@ -9,7 +9,7 @@ const translations = {
     contact: "Kontakt",
     phone: "tel.",
   },
-  eng: {
+  en: {
     contact: "Contact",
     phone: "mobile",
   },

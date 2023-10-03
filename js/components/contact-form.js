@@ -18,7 +18,7 @@ const translations = {
     message_was_sent: "Wiadomość została wysłana.",
     problem_with_sending: "Wystąpił problem z wysłaniem wiadomości.",
   },
-  eng: {
+  en: {
     name: "Name",
     email: "E-mail",
     message: "Message",

@@ -11,7 +11,7 @@ const menu = {
       text: "J. Wasiak",
     },
   ],
-  eng: [
+  en: [
     {
       href: "#",
       text: "J. Wasiak",
@@ -48,7 +48,7 @@ export class PageComponent extends LitElement {
 
   constructor() {
     super();
-    this.lang = "eng";
+    this.lang = "en";
     // this.isModal = false;
     // this.isNotification = false;
     this.addEventListener("change-language", (ev) => {
@@ -67,7 +67,7 @@ export class PageComponent extends LitElement {
         home="index.html"
       ></fixed-topbar>
       <start-pl lang=${this.lang}></start-pl>
-      <start-eng lang=${this.lang}></start-eng>
+      <start-en lang=${this.lang}></start-en>
       <contact-form name="#contact" lang=${this.lang}></contact-form>
     `;
   }
