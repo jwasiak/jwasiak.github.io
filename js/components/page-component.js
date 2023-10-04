@@ -66,9 +66,8 @@ export class PageComponent extends LitElement {
         menu=${JSON.stringify(menu)}
         home="index.html"
       ></fixed-topbar>
-      <start-pl lang=${this.lang}></start-pl>
-      <start-en lang=${this.lang}></start-en>
-      <contact-form name="#contact" lang=${this.lang}></contact-form>
+      <about-section lang=${this.lang}></about-section>
+      <contact-form lang=${this.lang}></contact-form>
     `;
   }
 }

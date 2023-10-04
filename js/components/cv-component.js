@@ -53,8 +53,7 @@ export class CvComponent extends LitElement {
         menu=${JSON.stringify(menu)}
         home="index.html"
       ></fixed-topbar>
-      <cv-pl lang=${this.lang}></cv-pl>
-      <cv-en lang=${this.lang}></cv-en>
+      <curriculum-vitae lang=${this.lang}></curriculum-vitae>
       <contact-details lang=${this.lang}></contact-details>
     `;
   }
