@@ -106,7 +106,7 @@ export class AboutSection extends LitElement {
         If you need my skills and competencies, feel free to contact me.
         <phone-link> +48 880 440 631</phone-link>
         <br />
-        I’m willing to tackle new challenges and provide support for legacy
+        I’m willing to tackle new challenges or provide support for legacy
         solutions.
       </p>
     </div>`;
@@ -199,7 +199,7 @@ export class AboutSection extends LitElement {
           do kontaktu. <phone-link> 880 440 631</phone-link>
           <br />
           Jestem otwarty zarówno na nowe wyzwania jak również mogę wesprzeć
-          rozwiązania typu legacy.
+          istniejące rozwiązania.
         </p>
       </div>
     `;
