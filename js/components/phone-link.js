@@ -19,7 +19,6 @@ export class PhoneLink extends LitElement {
     }
     svg {
       height: 1.6rem;
-      margin-right: 1rem;
       margin-bottom: -0.2rem;
     }
   `;
