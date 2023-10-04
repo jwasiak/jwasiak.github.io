@@ -130,8 +130,8 @@ export class AboutSection extends LitElement {
           końcowym pozwalając lepiej zrozumieć jego potrzeby.
         </p>
         <p>
-          Ostatnio pracowałem pracowałem jako programista front end dla firmy
-          RST Software Masters przy rozwoju oprogramowania do tworzenia paneli
+          Ostatnio pracowałem jako programista front end dla firmy RST Software
+          Masters przy rozwoju oprogramowania do tworzenia paneli
           administracyjnych (AdminJS) dla back office.
         </p>
         <p>
