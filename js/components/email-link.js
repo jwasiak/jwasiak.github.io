@@ -19,8 +19,8 @@ export class EmailLink extends LitElement {
       text-decoration: none;
     }
     svg {
+      fill: var(--primary-color);
       height: 1.6rem;
-      margin-right: 1rem;
       margin-bottom: -0.2rem;
     }
   `;

@@ -95,6 +95,7 @@ export class ContactForm extends LitElement {
       background-color: var(--primary-bg);
     }
     svg {
+      fill: var(--primary-color);
       margin-left: 1rem;
       margin-bottom: -0.2rem;
       height: var(--form-font-size, 1rem);

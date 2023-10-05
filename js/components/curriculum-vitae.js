@@ -55,7 +55,7 @@ export class CurriculumVitae extends LitElement {
   versionEn() {
     return html`
       <div>
-        <h2>Profesional profile</h2>
+        <h2>Professional profile</h2>
         <p>
           Experienced web application developer (full stack). Focused on solving
           problems. Easily establishing contact with the client. Efficiently
@@ -75,7 +75,7 @@ export class CurriculumVitae extends LitElement {
           <br />
 
           As part of the project, I was initially a backend developer, and then
-          I expanded my competences to front-end. I was responsible for system
+          I expanded my competencies to front-end. I was responsible for system
           development, testing and implementation.<br />
         </p>
 
@@ -137,6 +137,7 @@ export class CurriculumVitae extends LitElement {
             I participate in the development of the OpenSource AdminJS library
           </li>
         </ul>
+
         <h3>
           web app developer,
           <a href="https://www.fluid-desk.com/" target="_blank"
@@ -154,6 +155,7 @@ export class CurriculumVitae extends LitElement {
             Symfony framework
           </li>
         </ul>
+
         <h3>
           PHP & JavaScript developer, system architect
           <a href="https://angelius.pl/" target="_blank"
@@ -184,8 +186,6 @@ export class CurriculumVitae extends LitElement {
           </li>
         </ul>
 
-        •
-
         <h3>business analyst, EDS Poland Sp. z o.o., Warszawa, 2005 - 2007</h3>
         <p>
           I participated in the implementation of several Project Costing,
@@ -215,7 +215,7 @@ export class CurriculumVitae extends LitElement {
         <ul>
           <li>Business School at WUT, Finance and accounting, MBA (1995)</li>
           <li>
-            Warsaw University of Technology, Environmental engineering (1989)
+            Warsaw University of Technology, Environmental Engineering (1989)
           </li>
         </ul>
 
@@ -223,7 +223,7 @@ export class CurriculumVitae extends LitElement {
         <p>
           JavaScript, React, Redux, JQuery, VueJS, HTML5, XML, CSS, LESS,
           webpack, PHP, NodeJS, SQL, PostgreSQL, Unix administration, Git,
-          english at B1
+          English at B1
         </p>
       </div>
     `;

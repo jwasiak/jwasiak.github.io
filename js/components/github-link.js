@@ -15,6 +15,7 @@ export class GithubLink extends LitElement {
       margin-bottom: -0.5rem;
     }
     svg {
+      fill: var(--primary-color);
       height: 2.4rem;
     }
   `;

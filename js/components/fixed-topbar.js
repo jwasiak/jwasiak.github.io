@@ -33,6 +33,7 @@ export class FixedTopbar extends LitElement {
       box-shadow: var(--shadow-level-1);
     }
     nav svg {
+      fill: var(--primary-color);
       height: 1.6rem;
       margin-right: 1rem;
       margin-bottom: -0.1rem;
