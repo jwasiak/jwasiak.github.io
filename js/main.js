@@ -11,3 +11,5 @@ import "./components/email-link.js";
 import "./components/phone-link.js";
 import "./components/about-section.js";
 import "./components/curriculum-vitae.js";
+import "./components/cv-heaader.js";
+import "./components/web-link.js";
