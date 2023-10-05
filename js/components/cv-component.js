@@ -36,6 +36,14 @@ export class CvComponent extends LitElement {
       max-width: 960px;
       padding: 60px 2rem 0 2rem;
     }
+    @media print {
+      :host {
+        padding-top: 0;
+      }
+      fixed-topbar {
+        display: none;
+      }
+    }
   `;
 
   constructor() {
@@ -53,8 +61,8 @@ export class CvComponent extends LitElement {
         menu=${JSON.stringify(menu)}
         home="index.html"
       ></fixed-topbar>
+      <cv-header></cv-header>
       <curriculum-vitae lang=${this.lang}></curriculum-vitae>
-      <contact-details lang=${this.lang}></contact-details>
     `;
   }
 }
