@@ -44,6 +44,12 @@ export class PageComponent extends LitElement {
       right: 10px;
       max-width: 500px;
     } */
+    @media print {
+      contact-form,
+      fixed-topbar {
+        display: none;
+      }
+    }
   `;
 
   constructor() {
