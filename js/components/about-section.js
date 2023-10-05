@@ -20,10 +20,31 @@ export class AboutSection extends LitElement {
     li {
       line-height: 1.8;
     }
+    /* p {
+      text-indent: 2rem;
+    } */
+    img {
+      float: right;
+      width: 250px;
+      filter: drop-shadow(2px 3px 10px rgba(0, 0, 0, 0.5));
+      margin-left: 1rem;
+      margin-bottom: 1rem;
+    }
+    @media screen and (max-width: 768px) {
+      img {
+        display: none;
+      }
+    }
+    @media print {
+      img {
+        display: none;
+      }
+    }
   `;
 
   versionEn() {
     return html` <div>
+      <img src="img/photo.jpeg" alt="my photo"></div>
       <p>
         Hello, my name is Jarosław Wasiak. I’m a web developer based in Poland,
         working mainly remotely.
@@ -115,6 +136,7 @@ export class AboutSection extends LitElement {
   versionPl() {
     return html`
       <div>
+        <img src="img/photo.jpeg" alt="my photo" />
         <p>
           Witaj. Nazywam się Jarosław Wasiak i jestem programistą aplikacji
           internetowych.
