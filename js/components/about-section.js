@@ -160,7 +160,7 @@ export class AboutSection extends LitElement {
         </p>
         <p>
           Wcześniej pracowałem dla Centrum Medycznego Angelius Provita. Byłem
-          głównym programistą i współautorem koncepcji informatycznego sytemu
+          głównym programistą i współautorem koncepcji informatycznego systemu
           wspomagania pracy ambulatoriów - Orion i twórcą modułu obsługującego
           klinikę in vitro. Początkowo była to aplikacja monolityczna napisana w
           PHP, w późniejszym okresie nowe moduły powstawały jako SPA (VueJS)

@@ -13,3 +13,5 @@ import "./components/about-section.js";
 import "./components/curriculum-vitae.js";
 import "./components/cv-heaader.js";
 import "./components/web-link.js";
+import "./components/orion-component.js";
+import "./components/modal-component.js";
