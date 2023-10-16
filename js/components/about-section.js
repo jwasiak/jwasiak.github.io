@@ -44,7 +44,7 @@ export class AboutSection extends LitElement {
 
   versionEn() {
     return html` <div>
-      <img src="img/photo.jpeg" alt="my photo"></div>
+      <img src="img/my_photo.jpg" alt="my photo"></div>
       <p>
         Hello, my name is Jarosław Wasiak. I’m a web developer based in Poland,
         working mainly remotely.
@@ -136,7 +136,7 @@ export class AboutSection extends LitElement {
   versionPl() {
     return html`
       <div>
-        <img src="img/photo.jpeg" alt="my photo" />
+        <img src="img/my_photo.jpg" alt="my photo" />
         <p>
           Witaj. Nazywam się Jarosław Wasiak i jestem programistą aplikacji
           internetowych.
