@@ -4,6 +4,9 @@ import {
   LitElement,
 } from "https://cdn.jsdelivr.net/gh/lit/dist@2/core/lit-core.min.js";
 
+import "./linkedin-link.js";
+import "./github-link.js";
+
 export class FixedTopbar extends LitElement {
   static properties = {
     lang: { type: String },
@@ -64,10 +67,6 @@ export class FixedTopbar extends LitElement {
       cursor: pointer;
     }
   `;
-
-  constructor() {
-    super();
-  }
 
   setLanguage() {
     this.lang = this.lang === "pl" ? "en" : "pl";

@@ -4,6 +4,8 @@ import {
   LitElement,
 } from "https://cdn.jsdelivr.net/gh/lit/dist@2/core/lit-core.min.js";
 
+import "./modal-component.js";
+
 export class OrionComponent extends LitElement {
   static properties = {
     isModal: { state: true },

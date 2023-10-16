@@ -4,6 +4,8 @@ import {
   LitElement,
 } from "https://cdn.jsdelivr.net/gh/lit/dist@2/core/lit-core.min.js";
 
+import "./phone-link.js";
+
 export class AboutSection extends LitElement {
   static properties = {
     lang: {},

@@ -4,6 +4,8 @@ import {
   LitElement,
 } from "https://cdn.jsdelivr.net/gh/lit/dist@2/core/lit-core.min.js";
 
+import "./notification-component.js";
+
 const formspreeAction = "https://formspree.io/f/mgebggab";
 
 const translations = {

@@ -4,6 +4,8 @@ import {
   LitElement,
 } from "https://cdn.jsdelivr.net/gh/lit/dist@2/core/lit-core.min.js";
 
+import "./delete-button.js";
+
 export class NotificationComponent extends LitElement {
   static properties = {
     type: {},

@@ -4,6 +4,9 @@ import {
   LitElement,
 } from "https://cdn.jsdelivr.net/gh/lit/dist@2/core/lit-core.min.js";
 
+import "./email-link.js";
+import "./phone-link.js";
+
 const translations = {
   pl: {
     contact: "Kontakt",

@@ -4,6 +4,10 @@ import {
   LitElement,
 } from "https://cdn.jsdelivr.net/gh/lit/dist@2/core/lit-core.min.js";
 
+import "./fixed-topbar.js";
+import "./cv-heaader.js";
+import "./curriculum-vitae.js";
+
 const menu = {
   pl: [
     {

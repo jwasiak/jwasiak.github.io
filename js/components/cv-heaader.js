@@ -4,6 +4,10 @@ import {
   LitElement,
 } from "https://cdn.jsdelivr.net/gh/lit/dist@2/core/lit-core.min.js";
 
+import "./web-link.js";
+import "./email-link.js";
+import "./phone-link.js";
+
 export class CvHeader extends LitElement {
   static styles = css`
     :host {

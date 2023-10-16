@@ -4,6 +4,10 @@ import {
   LitElement,
 } from "https://cdn.jsdelivr.net/gh/lit/dist@2/core/lit-core.min.js";
 
+import "./fixed-topbar.js";
+import "./about-section.js";
+import "./contact-form.js";
+
 const menu = {
   pl: [
     {
