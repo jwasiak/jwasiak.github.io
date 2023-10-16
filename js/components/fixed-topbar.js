@@ -70,6 +70,7 @@ export class FixedTopbar extends LitElement {
 
   setLanguage() {
     this.lang = this.lang === "pl" ? "en" : "pl";
+    document.documentElement.setAttribute("lang", this.lang);
     const event = new CustomEvent("change-language", {
       bubbles: true,
       composed: true,
